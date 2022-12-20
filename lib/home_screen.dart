@@ -1,3 +1,4 @@
+import 'package:bloc_app/get_length_collection.dart';
 import 'package:bloc_app/read_data.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -16,7 +17,8 @@ class HomeScreen extends StatelessWidget {
     // query();
     // readDocument();
     //readData2();
-    uploadData();
+    //  uploadData();
+    getLengthCollection();
     return Container();
   }
 }
