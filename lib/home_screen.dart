@@ -1,3 +1,4 @@
+import 'package:bloc_app/add_profile.dart';
 import 'package:bloc_app/get_length_collection.dart';
 import 'package:bloc_app/read_data.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -18,7 +19,8 @@ class HomeScreen extends StatelessWidget {
     // readDocument();
     //readData2();
     //  uploadData();
-    getLengthCollection();
+    // getLengthCollection();
+    addProfile();
     return Container();
   }
 }
